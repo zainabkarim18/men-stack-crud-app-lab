@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Car</title>
+</head>
+<body>
+    <h1>Create a New Car!</h1>
+    <form action="/cars/add" method="POST">
+        <div>
+            <label for="name">Car Name: </label>
+            <input type="text" name="name" id="name" />
+        </div>
+        <br />
+
+        <div>
+            <label for="description">Description: </label>
+            <textarea name="description"  id="description"></textarea>
+        </div>
+        <br />
+
+        <div>
+            <label for="image">Image: </label>
+            <textarea name="image" id="image"></textarea>
+        </div>
+        <br />
+
+        <button type="submit">Add Car</button>
+    </form>
+</body>
+</html>
